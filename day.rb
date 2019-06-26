@@ -1,11 +1,11 @@
 puts 'Введите число:'
-day = gets.chomp.to_f
+day = gets.chomp.to_i
 
 puts 'Введите месяц:'
-month = gets.chomp.to_f
+month = gets.chomp.to_i
 
 puts 'Введите год:'
-year = gets.chomp.to_f
+year = gets.chomp.to_i
 
 days_in_a_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 days_in_a_month[1] = 29 if year % 400 == 0
