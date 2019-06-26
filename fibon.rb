@@ -1,12 +1,5 @@
-number = []
-number[0] = 1
-number[1] = 1
-n = 2
-i = 1
-while n <= 100
-  number << n
-  n += number[i]
-  i += 1
-  end 
+a = [0,1]
 
-  puts number 
+while (c = a[-1] + a[-2]) <= 100
+  a << c
+end
